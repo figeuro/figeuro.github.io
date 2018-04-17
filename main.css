@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+
+* {
+    padding: 0;
+    margin: 0;
+    //overflow: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: #0652DD;
+}
+
+#sloganWrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slogan {
+    color: #FFC312;
+    text-align: center;
+    font-family: "Boogaloo";
+    line-height: 5vh;
+    font-size: 5vh;
+    font-weight: 100;
+}
+
+#mainContainerWrapper {
+    position:absolute;
+    bottom:0%;
+    display: none;
+    width:100%;
+    height:100%;
+}
+
+#mainContainer {
+    background-color: #333333;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 8%;
+    margin-bottom: 0px;
+    padding: 2%;
+    border-radius: 5vh 5vh 0px 0px;
+    
+    -webkit-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
+}
+
+#heading {
+    color: #FFC312;
+    font-family: "Boogaloo";
+    text-align: center;
+    font-weight: 100;
+    font-size: 8vh;
+}
+
+.para {
+    color: white;
+    font-family: "Boogaloo";
+    letter-spacing: 0.1vh;
+    font-size: 2.5vh;
+    margin: 1vh;
+}
+
+#intro {
+    text-align: center;
+}
+
+video {
+    width: 48vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video {
+    padding: 1vh;
+}
+
+th {
+    color: #FFC312;
+    font-family: "Boogaloo";
+    font-weight: normal;
+    font-size: 3vh;
+}
+
+td {
+    color: white;
+    font-family: "Boogaloo";
+    letter-spacing: 0.1vh;
+    text-align: center;
+    padding: 1vh;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border: 0px none #ffffff;
+  border-radius: 50px 0px 0px 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFC312;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #FFC312;
+}
+::-webkit-scrollbar-track {
+  background: #0652DD;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #0652DD;
+}
+::-webkit-scrollbar-track:active {
+  background: #0652DD;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+#tech {
+    color: #FFC312;
+    font-size: 3vh;
+}
+
+#techsymbol {
+    float: right;
+    color: white;
+    font-family: "Boogaloo";
+    font-size: 3vh;
+    margin-right: 1vh;
+    
+}
+
+#techbutton {
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+#techy {
+    display: none;
+    color: white;
+    font-family: "Boogaloo";
+    margin-left: 4vh;
+    letter-spacing: 0.1vh;
+    font-size: 2.5vh;
+}
+
+a {
+    text-decoration: none;
+    color: #FFC312;
+    font-family: "Boogaloo";
+    font-size: 4vh;
+    letter-spacing: 0.1vh;
+    text-align: center;
+    display: block;
+    margin: 2vh;
+    padding: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-radius: 2vh;
+    border-style: solid;
+    border-color: #FFC312;
+    -webkit-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
+}
